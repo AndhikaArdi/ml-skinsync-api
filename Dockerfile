@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port yang digunakan Flask
-EXPOSE 5000
+EXPOSE 3000
 
 # Jalankan API Flask
 CMD ["python", "predict_api.py"]
